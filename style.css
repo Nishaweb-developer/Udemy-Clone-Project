@@ -1,0 +1,145 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+
+}
+.navbar{
+    padding:10px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom:solid black 1px;
+    gap:10px;
+    align-items: center;
+}
+
+.section_one__title{
+    color:#9C47ED;
+}
+.section_one{
+    align-items: center;
+}
+.section_two{
+    display:flex;
+    border: solid 1px black;
+    padding:10px;
+    border-radius:30px;
+    width:60%;
+    gap:10px;
+    align-items: center;
+}
+.section_two__input{
+    border:none;
+    font-size:16px;
+    width:100%;
+    
+}
+
+.section_two__input:focus{
+    outline: none;
+}
+
+.section_three{
+    display: flex;
+    padding:10px;
+    gap:8px;
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+    border-bottom:solid black 1px;
+}
+
+.categories p{
+    background-color: #9C47ED;
+    padding:5px;
+    border-radius:30px;
+    color:white;
+}
+
+.section_banner_img{
+    width:100%;
+}
+
+.course_card_container{
+       display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.recommended{
+   padding:10px;
+}
+
+.course_card{
+width:330px;
+height:330px
+}
+
+.course_card img{
+    width:100%;
+    height:50%;
+}
+.topics{
+    padding:10px;
+}
+.topics__container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top:10px;
+    
+
+}
+.topics__container p{
+    flex-grow:1;
+    flex-basis:25%;
+    border:1px solid black;
+    padding:10px;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.footer{
+    background-color: black;
+    padding:10px;
+    color:white;
+   
+}
+.footer_s1{
+display: flex;
+gap:10px;
+}
+
+.footer_s1 p{
+    margin:20px;
+}
+
+
+.footer_s2{
+    display: flex;
+    margin:20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
